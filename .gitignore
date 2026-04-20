@@ -1,0 +1,54 @@
+# ─────────────────────────────────────────────
+#  .gitignore  —  Muthu Mariappan Portfolio
+# ─────────────────────────────────────────────
+
+# Dependencies — never push node_modules to GitHub
+node_modules/
+
+# Build output — generated when you run npm run build
+dist/
+dist-ssr/
+
+# Vite cache
+.vite/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Environment variables — keep secrets out of GitHub
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional: lock files (keep one — whichever package manager you use)
+# yarn.lock
+# pnpm-lock.yaml
